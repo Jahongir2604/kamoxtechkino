@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #070909;
+  --card: #0b0f0b;
+  --muted: #9ca3af;
+  --neon: #00FF7F;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(4,4,4,1) 0%, rgba(8,10,8,1) 100%);
+  color: #e6f2e6;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.hacker-accent {
+  color: var(--neon);
+}
+
+.card {
+  background: rgba(10,12,10,0.6);
+  border: 1px solid rgba(0,255,127,0.06);
+  box-shadow: 0 6px 18px rgba(0,255,127,0.03);
+}
+
+kbd {
+  background: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.03);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
